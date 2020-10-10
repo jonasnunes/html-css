@@ -6,4 +6,6 @@
 
 <h1>Meus Projetos</h1>
 
-<a href="https://jonasnunes.github.io/html-css/exemplos/evh/index.html">Eddie Van Halen</a>
+<a href="https://jonasnunes.github.io/html-css/exemplos/evh/index.html" target="_blank">Eddie Van Halen</a>
+
+<a href="https://jonasnunes.github.io/html-css/exemplos/projeto-android/android.html" target="_blank">Projeto Android</a>
