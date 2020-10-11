@@ -134,6 +134,13 @@ main > p{
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
+#indice  a{
+    text-decoration: none;
+    color: var(--cor4);
+}
+#indice a:hover{
+    text-decoration: underline;
+}
 .ol-li{
     text-indent: initial;
     margin-left: 10px;
