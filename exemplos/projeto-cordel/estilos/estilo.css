@@ -34,6 +34,16 @@ header p{
     font-size: 1.6rem;
 }
 
+header a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
 .normal{
     padding: 6.5rem 0 6.5rem 3rem;
     font-family: var(--fonte3);
