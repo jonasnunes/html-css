@@ -17,41 +17,55 @@
 
 body{
     min-width: 20rem;
+    min-height: 100vh;
 }
 
 header{
     background-color: black;
-    color: white;
     min-height: 18rem;
     text-align: center;
-    padding: 3.6rem;
+}
+
+header h1{
+    color: white;
     font-family: var(--fonte2);
-    font-size: 6rem;
+    font-size: 10rem;
+    padding-top: 5rem;
+    /* text-transform: uppercase; */
+    font-variant: small-caps;
 }
 
 header p{
     font-family: var(--fonte1);
     font-size: 1.6rem;
+    color: white;
+    padding-bottom: 5rem;
 }
 
-header a{
+header a, footer a{
     text-decoration: none;
     color: white;
     font-weight: bolder;
 }
 
-header a:hover{
+header a:hover, footer a:hover{
     text-decoration: underline;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2;
 }
 
 .normal{
     padding: 6.5rem 0 6.5rem 3rem;
     font-family: var(--fonte3);
     font-size: 4.8rem;
-    line-height: 2;
 }
 
 #img01{
+    background-color: #00000027;
     background-image: url('../imagens/background001.jpg');
     background-position: right center;
     background-size: cover;
@@ -73,6 +87,7 @@ header a:hover{
 }
 
 #img02{
+    background-color: #00000027;
     background-image: url('../imagens/background002.jpg');
     background-position: right center;
     background-size: cover;
@@ -95,27 +110,18 @@ header a:hover{
 
 footer{
     background-color: black;
-    color: white;
-    padding: 1rem;
     text-align: center;
-    font-family: var(--fonte1);
-    font-size: 1.6rem;
+    padding: 1rem;
+
 }
 
 footer p{
     padding: .5rem;
+    color: white;
+    font-family: var(--fonte1);
+    font-size: 1.6rem;
 }
 
 footer p + p{
     color: yellowgreen;
-}
-
-footer a{
-    text-decoration: none;
-    color: white;
-    font-weight: bolder;
-}
-
-footer a:hover{
-    text-decoration: underline;
 }
