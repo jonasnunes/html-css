@@ -29,7 +29,7 @@ header{
 header h1{
     color: white;
     font-family: var(--fonte2);
-    font-size: 10rem;
+    font-size: 8vw;
     padding-top: 5rem;
     /* text-transform: uppercase; */
     font-variant: small-caps;
@@ -61,7 +61,7 @@ section{
 .normal{
     padding: 6.5rem 0 6.5rem 3rem;
     font-family: var(--fonte3);
-    font-size: 4.8rem;
+    font-size: 4vw;
 }
 
 #img01{
@@ -73,15 +73,15 @@ section{
 }
 
 .texto-imagem{
-    font-family: var(--fonte3);
-    font-size: 3.4rem;
-    padding: 6.5rem 0 6.5rem 3rem;
+    padding: 6.5rem 3rem;
+    display: inline-block;
 }
 
 .texto-imagem p{
     background-color: black;
+    font-family: var(--fonte3);
+    font-size: 2.5vw;
     color: white;
-    width: 42rem;
     padding: .5rem;
     line-height: 2;
 }
@@ -95,15 +95,15 @@ section{
 }
 
 #texto-imagem{
-    font-family: var(--fonte3);
-    font-size: 3.4rem;
-    padding: 6.5rem 0 6.5rem 3rem;
+    padding: 6.5rem 3rem;
+    display: inline-block;
 }
 
 #texto-imagem p{
     background-color: #3a3939ab;
+    font-family: var(--fonte3);
+    font-size: 2.5vw;
     color: white;
-    width: 42rem;
     padding: .5rem;
     line-height: 2;
 }
