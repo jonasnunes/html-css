@@ -15,10 +15,14 @@
     --fonte3: 'Sriracha', cursive;
 }
 
+body{
+    min-width: 20rem;
+}
+
 header{
     background-color: black;
     color: white;
-    height: 18rem;
+    min-height: 18rem;
     text-align: center;
     padding: 3.6rem;
     font-family: var(--fonte2);
