@@ -92,6 +92,14 @@ footer{
     font-size: 1.6rem;
 }
 
+footer p{
+    padding-top: 1rem;
+}
+
+footer p + p{
+    padding-bottom: 1rem;
+}
+
 footer a{
     text-decoration: none;
     color: white;
