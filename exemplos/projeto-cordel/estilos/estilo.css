@@ -93,11 +93,11 @@ footer{
 }
 
 footer p{
-    padding-top: 1rem;
+    padding: .5rem;
 }
 
 footer p + p{
-    padding-bottom: 1rem;
+    color: yellowgreen;
 }
 
 footer a{
