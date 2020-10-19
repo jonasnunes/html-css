@@ -29,7 +29,7 @@ header{
 header h1{
     color: white;
     font-family: var(--fonte2);
-    font-size: 8vw;
+    font-size: clamp(8rem, 8.5rem + 1vw, 9rem);
     padding-top: 5rem;
     /* text-transform: uppercase; */
     font-variant: small-caps;
@@ -61,7 +61,7 @@ section{
 .normal{
     padding: 6.5rem 0 6.5rem 3rem;
     font-family: var(--fonte3);
-    font-size: 4vw;
+    font-size: clamp(3rem, 3.5rem, 4rem);
 }
 
 #img01{
@@ -80,7 +80,7 @@ section{
 .texto-imagem p{
     background-color: black;
     font-family: var(--fonte3);
-    font-size: 2.5vw;
+    font-size: clamp(3rem, 3.5rem, 4rem);
     color: white;
     padding: .5rem;
     line-height: 2;
@@ -102,7 +102,7 @@ section{
 #texto-imagem p{
     background-color: #3a3939ab;
     font-family: var(--fonte3);
-    font-size: 2.5vw;
+    font-size: clamp(3rem, 3.5rem, 4rem);
     color: white;
     padding: .5rem;
     line-height: 2;
@@ -119,7 +119,7 @@ footer p{
     padding: .5rem;
     color: white;
     font-family: var(--fonte1);
-    font-size: 1.6rem;
+    font-size: clamp(1rem, 1.6rem, 2rem);
 }
 
 footer p + p{
