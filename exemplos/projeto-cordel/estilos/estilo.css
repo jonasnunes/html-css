@@ -59,7 +59,7 @@ section{
 }
 
 .normal{
-    padding: 6.5rem 0 6.5rem 3rem;
+    padding: 4rem 3rem;
     font-family: var(--fonte3);
     font-size: clamp(3rem, 3.5rem, 4rem);
 }
@@ -70,6 +70,7 @@ section{
     background-position: right center;
     background-size: cover;
     background-attachment: fixed;
+    box-shadow: inset 3px 3px 7px 0px #0000008c;
 }
 
 .texto-imagem{
@@ -78,12 +79,13 @@ section{
 }
 
 .texto-imagem p{
-    background-color: black;
+    background-color: #1a19198c;
     font-family: var(--fonte3);
     font-size: clamp(3rem, 3.5rem, 4rem);
     color: white;
-    padding: .5rem;
+    padding: 1rem;
     line-height: 2;
+    text-shadow: 2px 2px 0px black;
 }
 
 #img02{
@@ -92,6 +94,7 @@ section{
     background-position: right center;
     background-size: cover;
     background-attachment: fixed;
+    box-shadow: inset 3px 3px 7px 0px #0000008c;
 }
 
 #texto-imagem{
@@ -100,12 +103,13 @@ section{
 }
 
 #texto-imagem p{
-    background-color: #3a3939ab;
+    background-color: #1a19198c;
     font-family: var(--fonte3);
     font-size: clamp(3rem, 3.5rem, 4rem);
     color: white;
     padding: .5rem;
     line-height: 2;
+    text-shadow: 2px 2px 0px black;
 }
 
 footer{
